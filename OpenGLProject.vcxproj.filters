@@ -27,9 +27,14 @@
     <ClCompile Include="stb_image.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="review.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\fragmentShader.fs" />
     <None Include="src\vertexShader.vs" />
+    <None Include="colors.vs" />
+    <None Include="colors.fs" />
   </ItemGroup>
 </Project>

@@ -1,2 +1,4 @@
-﻿  main.cpp
+﻿  review.cpp
+P:\OpenGLProject\include\glad\glad.h(430,1): warning C4005: “GL_REPEAT”: 宏重定义
+P:\OpenGLProject\include\glad\glad.h(305,1): message : 参见“GL_REPEAT”的前一个定义
   OpenGLProject.vcxproj -> P:\OpenGLProject\x64\Debug\OpenGLProject.exe
