@@ -1,4 +1,6 @@
 ﻿  review.cpp
 P:\OpenGLProject\include\glad\glad.h(430,1): warning C4005: “GL_REPEAT”: 宏重定义
 P:\OpenGLProject\include\glad\glad.h(305,1): message : 参见“GL_REPEAT”的前一个定义
+P:\OpenGLProject\review.cpp(143,22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+P:\OpenGLProject\review.cpp(253,10): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
   OpenGLProject.vcxproj -> P:\OpenGLProject\x64\Debug\OpenGLProject.exe
