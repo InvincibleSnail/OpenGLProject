@@ -1,19 +1,4 @@
 ﻿  main.cpp
 P:\OpenGLProject\include\glad\glad.h(430,1): warning C4005: “GL_REPEAT”: 宏重定义
 P:\OpenGLProject\include\glad\glad.h(305,1): message : 参见“GL_REPEAT”的前一个定义
-P:\OpenGLProject\src\main.cpp(179,27): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
-          with
-          [
-              T=float
-          ]
-P:\OpenGLProject\src\main.cpp(180,27): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
-          with
-          [
-              T=float
-          ]
-P:\OpenGLProject\src\main.cpp(181,27): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
-          with
-          [
-              T=float
-          ]
   OpenGLProject.vcxproj -> P:\OpenGLProject\x64\Debug\OpenGLProject.exe
