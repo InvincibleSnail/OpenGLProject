@@ -35,5 +35,15 @@
     <None Include="colors.fs" />
     <None Include="light.fs" />
     <None Include="light.vs" />
+    <None Include="1.model_loading.vs" />
+    <None Include="1.model_loading.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
