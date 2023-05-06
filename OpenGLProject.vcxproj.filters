@@ -36,6 +36,10 @@
     <None Include="1.model_loading.fs" />
     <None Include="3.2.blending.vs" />
     <None Include="3.2.blending.fs" />
+    <None Include="6.1.cubemaps.vs" />
+    <None Include="6.1.cubemaps.fs" />
+    <None Include="6.1.skybox.vs" />
+    <None Include="6.1.skybox.fs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mesh.h">
