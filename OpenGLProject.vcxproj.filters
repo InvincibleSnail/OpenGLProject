@@ -21,9 +21,6 @@
     <ClCompile Include="src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\Shader.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="stb_image.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -37,6 +34,8 @@
     <None Include="light.vs" />
     <None Include="1.model_loading.vs" />
     <None Include="1.model_loading.fs" />
+    <None Include="3.2.blending.vs" />
+    <None Include="3.2.blending.fs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mesh.h">
