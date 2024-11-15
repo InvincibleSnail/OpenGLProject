@@ -71,9 +71,11 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <ExternalIncludePath>P:\OpenGLProject\include;$(ExternalIncludePath)</ExternalIncludePath>
-    <LibraryPath>P:\OpenGLProject\lib;$(LibraryPath)</LibraryPath>
-    <IncludePath>P:\OpenGLProject\include;$(IncludePath)</IncludePath>
+    <ExternalIncludePath>P:\OpenGLProject\include;D:\OpenGLProject\include;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>P:\OpenGLProject\lib;D:\OpenGLProject\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>P:\OpenGLProject\include;D:\OpenGLProject\include;$(IncludePath)</IncludePath>
+    <AllProjectIncludesArePublic>false</AllProjectIncludesArePublic>
+    <AllProjectBMIsArePublic>false</AllProjectBMIsArePublic>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ExternalIncludePath>P:\OpenGLProject\include;$(ExternalIncludePath)</ExternalIncludePath>
@@ -115,12 +117,14 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <LanguageStandard>Default</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>glfw3.lib;opengl32.lib;assimp-vc143-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>P:\OpenGLProject\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>P:\OpenGLProject\lib;D:\OpenGLProject\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
