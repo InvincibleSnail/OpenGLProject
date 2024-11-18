@@ -125,6 +125,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>glfw3.lib;opengl32.lib;assimp-vc143-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>P:\OpenGLProject\lib;D:\OpenGLProject\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -147,29 +148,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\glad.c" />
-    <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="stb_image.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="1.model_loading.fs" />
-    <None Include="1.model_loading.vs" />
-    <None Include="3.2.blending.fs" />
-    <None Include="3.2.blending.vs" />
-    <None Include="6.1.cubemaps.fs" />
-    <None Include="6.1.cubemaps.vs" />
-    <None Include="6.1.skybox.fs" />
-    <None Include="6.1.skybox.vs" />
-    <None Include="colors.vs" />
-    <None Include="colors.fs" />
-    <None Include="light.fs" />
-    <None Include="light.vs" />
-    <None Include="src\fragmentShader.fs" />
-    <None Include="src\vertexShader.vs" />
+    <ClCompile Include="include\glad\glad.c" />
+    <ClCompile Include="include\stb_image.cpp" />
+    <ClCompile Include="src\main.cpp">
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="Model.h" />
+    <ClInclude Include="src\engine\resource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
