@@ -1,5 +1,0 @@
-﻿  main.cpp
-P:\OpenGLProject\include\glad\glad.h(430,1): warning C4005: “GL_REPEAT”: 宏重定义
-P:\OpenGLProject\include\glad\glad.h(305,1): message : 参见“GL_REPEAT”的前一个定义
-LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
-  OpenGLProject.vcxproj -> P:\OpenGLProject\x64\Debug\OpenGLProject.exe
